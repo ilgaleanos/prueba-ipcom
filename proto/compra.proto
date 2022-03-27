@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "../src";
+option optimize_for = SPEED;
+
+/**
+ *
+ * protoc -I=. --go_out=. compra.proto
+ *
+ * me gusta manejar estructuras externas como protobuf por capacidad de
+ * integración
+ */
+message Compra {
+  int64 clientId = 1;
+  string phone = 2;
+  string nombre = 3;
+  bool compro = 4;
+  string tdc = 5;
+  double monto = 6;
+  string date = 7;
+};
