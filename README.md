@@ -31,3 +31,6 @@ La solucion está enfocada en leer el fichero linea a linea pensando en un gran 
 ```bash 
 curl --location --request GET '127.0.0.1:8080/agrupador'
 ``` 
+
+## Nota
+Se ha realizado una integracion de los dos puntos en endpoints como tal, de modo que basta seguir las referencias del main [router] para llegar a cada controlador.
